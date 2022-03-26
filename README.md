@@ -1,4 +1,4 @@
-# AppRecoveryCallbackInject
+# AppRecoveryCallbackInject PoC
 
 Application's can set a recovery point that holds data or information in case the process becomes hanged or crashes unexpectedly.
 
@@ -24,5 +24,8 @@ The repo contains 2 things that need to be compiled: the victim executable and t
 2. Inject: `C:\windows\Microsoft.NET\Framework64\v3.5\csc.exe -out:Inject.exe .\AppRecoveryCallbackInject\Program.cs`
 
 ### References
-RegisterApplicationRecoveryCallback: https://docs.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-registerapplicationrecoverycallback
-GetApplicationRecoveryCallback: https://docs.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-getapplicationrecoverycallback
+RegisterApplicationRecoveryCallback:  
+https://docs.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-registerapplicationrecoverycallback  
+
+GetApplicationRecoveryCallback:  
+https://docs.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-getapplicationrecoverycallback
