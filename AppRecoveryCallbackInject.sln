@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppRecoveryCallbackInject", "AppRecoveryCallbackInject\AppRecoveryCallbackInject.csproj", "{8FFBDCFF-B6E3-43EA-B258-2A4B88D5A317}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Victim", "Victim\Victim.csproj", "{83DBF4FD-6CC9-4F33-BA37-7017DD9D7647}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FFBDCFF-B6E3-43EA-B258-2A4B88D5A317}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FFBDCFF-B6E3-43EA-B258-2A4B88D5A317}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FFBDCFF-B6E3-43EA-B258-2A4B88D5A317}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FFBDCFF-B6E3-43EA-B258-2A4B88D5A317}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83DBF4FD-6CC9-4F33-BA37-7017DD9D7647}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83DBF4FD-6CC9-4F33-BA37-7017DD9D7647}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83DBF4FD-6CC9-4F33-BA37-7017DD9D7647}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83DBF4FD-6CC9-4F33-BA37-7017DD9D7647}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35CDA070-6ACF-43B9-8EBC-7A7FF71E700D}
+	EndGlobalSection
+EndGlobal
