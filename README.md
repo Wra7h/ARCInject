@@ -8,7 +8,8 @@ Processes can acquire the recovery callback information of other processes using
 
 At the moment it's working for simple shellcode like popping calc. This is due to the amount of space the Victim.exe requests with VirtualAlloc. Bigger request = more space to write larger payloads. The amount of space requested by a process will most likely vary process to process depending on the amount of data in wishes to save as the recovery. If you wish to play around with larger payloads, change the "1" to something bigger in the `/Victim/Program.cs` before compiling.
 
-I wrote a gist that's a scanner to see what processes might be using these callbacks. You can find it here: https://gist.github.com/Wra7h/ec76ad51f0961969fbf52ae9adf06734
+I wrote a gist that's a scanner to see what processes might be using these callbacks. You can find it here:  
+https://gist.github.com/Wra7h/7b6c2ad5d4970891195c167013373cc4
 
 ## Demo
 PotatoQuality.gif
