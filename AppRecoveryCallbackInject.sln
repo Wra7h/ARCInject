@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARCInject", "ARCInject\ARCInject.csproj", "{7B8C3926-0399-4666-BB7E-32BA63BF771B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoC_Inject", "PoC_Inject\PoC_Inject.csproj", "{E1EFEDB5-C698-4B89-8547-BC3E722949D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoC_Victim", "PoC_Victim\PoC_Victim.csproj", "{9E86AED2-6A54-4F0B-81E9-B83754C56E23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B8C3926-0399-4666-BB7E-32BA63BF771B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B8C3926-0399-4666-BB7E-32BA63BF771B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B8C3926-0399-4666-BB7E-32BA63BF771B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B8C3926-0399-4666-BB7E-32BA63BF771B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1EFEDB5-C698-4B89-8547-BC3E722949D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1EFEDB5-C698-4B89-8547-BC3E722949D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1EFEDB5-C698-4B89-8547-BC3E722949D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1EFEDB5-C698-4B89-8547-BC3E722949D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E86AED2-6A54-4F0B-81E9-B83754C56E23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E86AED2-6A54-4F0B-81E9-B83754C56E23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E86AED2-6A54-4F0B-81E9-B83754C56E23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E86AED2-6A54-4F0B-81E9-B83754C56E23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {046E4C9C-8785-4C42-B868-D2C5A1C5D620}
+	EndGlobalSection
+EndGlobal
