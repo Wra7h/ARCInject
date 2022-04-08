@@ -11,7 +11,7 @@ At the moment it's working for simple shellcode like popping calc. This is due t
 I wrote a gist that's a scanner to see what processes might be using these callbacks. You can find it here:  
 https://gist.github.com/Wra7h/7b6c2ad5d4970891195c167013373cc4
 
-#UPDATE:
+## UPDATE:
 - It's even easier than I thought. Just calling the WerReportHang WinApi will trigger the execution of the payload. This version can be found under `/ARCInject/Program.cs`
 
 ## Demo
