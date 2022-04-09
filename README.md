@@ -6,13 +6,12 @@ Application's can set a recovery point that holds data or information in case th
 
 Processes can acquire the recovery callback information of other processes using GetApplicationRecoveryCallback. This will give us the address that we can overwrite with our payload. After the payload is written to the victim process, `Inject.exe` calls CreateRemoteThread to invoke a crash. I've found a few processes that knew how to handle this way of crashing the process, so you may need to get creative if you decide to play around on your own. 
 
-At the moment it's working for simple shellcode like popping calc. This is due to the amount of space the Victim.exe requests with VirtualAlloc. Bigger request = more space to write larger payloads. The amount of space requested by a process will most likely vary process to process depending on the amount of data in wishes to save as the recovery. If you wish to play around with larger payloads, change the "1" to something bigger in the `/Victim/Program.cs` before compiling.
+At the moment the PoC pieces are working for simple shellcode like popping calc. This is due to the amount of space the Victim.exe requests with VirtualAlloc. Bigger request = more space to write larger payloads. The amount of space requested by a process will most likely vary.  
+
+**UPDATE**: It's even easier than I thought. Just calling the WerReportHang WinApi will trigger the execution of the payload. This version can be found under `/ARCInject/Program.cs`. So there's no need to find a crazy way to crash the process. Additionally, with the processes I've targeted during tested, there has been no need to change the memory protections with VirtualProtectEx. This API call is still in the PoC pieces, but I have removed it from the `ARCInject` project. 
 
 I wrote a gist that's a scanner to see what processes might be using these callbacks. You can find it here:  
 https://gist.github.com/Wra7h/7b6c2ad5d4970891195c167013373cc4
-
-## UPDATE:
-- It's even easier than I thought. Just calling the WerReportHang WinApi will trigger the execution of the payload. This version can be found under `/ARCInject/Program.cs`
 
 ## Demo
 PotatoQuality.gif
