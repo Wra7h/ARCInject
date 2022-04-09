@@ -1,4 +1,4 @@
-# AppRecoveryCallbackInject PoC
+# AppRecoveryCallback Inject PoC
 
 Application's can set a recovery point that holds data or information in case the process becomes hanged or crashes unexpectedly due to an unhandled exception.
 
