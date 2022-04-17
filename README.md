@@ -12,6 +12,10 @@ At the moment the PoC pieces are working for simple shellcode like popping calc.
 
 I wrote a basic scanner to see what processes might be using these callbacks. You can find it here: [ARC_Scan](https://gist.github.com/Wra7h/7b6c2ad5d4970891195c167013373cc4)
 
+ARC_Scan Example:  
+![Alt Text](/images/ARC_Scan.png)
+
+
 ## Demo
 PotatoQuality.gif
 ![Alt Text](/images/AppRecoverInject.gif)
